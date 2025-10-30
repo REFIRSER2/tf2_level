@@ -14,26 +14,8 @@
 #define _tf2level_player_data_included
 
 // =============================================================================
-// 상수 정의
+// 상수 정의 (공통 상수는 메인 파일에 정의)
 // =============================================================================
-
-// 클래스 인덱스 상수
-#define CLASS_SCOUT         0
-#define CLASS_MEDIC         1
-#define CLASS_SOLDIER       2
-#define CLASS_PYRO          3
-#define CLASS_SPY           4
-#define CLASS_DEMOMAN       5
-#define CLASS_SNIPER        6
-#define CLASS_ENGINEER      7
-#define CLASS_HEAVY         8
-#define CLASS_HALE          9
-#define CLASS_SHARED        10
-#define CLASS_WEAPON        11
-
-// 배열 크기 상수
-#define MAX_CLASSES         12      // 총 클래스 수
-#define MAX_ATTRIBUTES      17      // 클래스당 최대 속성 수 (Engineer 기준)
 
 // 클래스별 실제 속성 개수
 #define SCOUT_ATTR_COUNT    13

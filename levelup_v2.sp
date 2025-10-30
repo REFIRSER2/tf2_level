@@ -25,7 +25,35 @@
 #pragma newdecls required
 
 // =============================================================================
-// 모듈 로드
+// 공통 상수 정의 (모든 모듈에서 사용)
+// =============================================================================
+
+// 클래스 인덱스
+#define CLASS_SCOUT         0
+#define CLASS_MEDIC         1
+#define CLASS_SOLDIER       2
+#define CLASS_PYRO          3
+#define CLASS_SPY           4
+#define CLASS_DEMOMAN       5
+#define CLASS_SNIPER        6
+#define CLASS_ENGINEER      7
+#define CLASS_HEAVY         8
+#define CLASS_HALE          9
+#define CLASS_SHARED        10
+#define CLASS_WEAPON        11
+
+// 배열 크기
+#define MAX_CLASSES         12
+#define MAX_ATTRIBUTES      17
+
+// 속성 적용 모드
+#define ADDITIVE_PERCENT 0
+#define ADDITIVE_NUMBER 1
+#define MINUS_PERCENT 2
+#define MINUS_NUMBER 3
+
+// =============================================================================
+// 모듈 로드 (반드시 상수 정의 후에 로드)
 // =============================================================================
 
 #include "includes/player_data.inc"         // 플레이어 데이터 관리

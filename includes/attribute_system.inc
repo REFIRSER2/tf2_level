@@ -14,32 +14,11 @@
 #define _tf2level_attribute_system_included
 
 // =============================================================================
-// 상수 정의
+// 상수 정의 (공통 상수는 메인 파일에 정의)
 // =============================================================================
-
-// 클래스 인덱스
-#define CLASS_SCOUT         0
-#define CLASS_MEDIC         1
-#define CLASS_SOLDIER       2
-#define CLASS_PYRO          3
-#define CLASS_SPY           4
-#define CLASS_DEMOMAN       5
-#define CLASS_SNIPER        6
-#define CLASS_ENGINEER      7
-#define CLASS_HEAVY         8
-#define CLASS_HALE          9
-#define CLASS_SHARED        10
-#define CLASS_WEAPON        11
-
-// 속성 적용 모드
-#define ADDITIVE_PERCENT 0  // 기본값의 %를 더함
-#define ADDITIVE_NUMBER 1   // 고정값을 더함
-#define MINUS_PERCENT 2     // 기본값의 %를 뺌
-#define MINUS_NUMBER 3      // 고정값을 뺌
-
-// 배열 크기
-#define MAX_CLASSES 12
-#define MAX_ATTRIBUTES 17
+// CLASS_SCOUT, CLASS_MEDIC 등의 클래스 상수는 메인 파일에 정의
+// ADDITIVE_PERCENT 등의 모드 상수도 메인 파일에 정의
+// MAX_CLASSES, MAX_ATTRIBUTES도 메인 파일에 정의
 
 // =============================================================================
 // 데이터 구조체
