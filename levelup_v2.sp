@@ -56,13 +56,13 @@
 // 모듈 로드 (반드시 상수 정의 후에 로드)
 // =============================================================================
 
-#include "includes/player_data.inc"         // 플레이어 데이터 관리
-#include "includes/db_manager.inc"          // DB 최적화 (배치 쿼리)
-#include "includes/exp_level_system.inc"    // 경험치/레벨업
-#include "includes/attribute_system.inc"    // 속성 시스템 (187개 속성)
-#include "includes/weapon_system.inc"       // 무기 업그레이드
-#include "includes/menu_system.inc"         // 메뉴/UI
-#include "includes/event_handler.inc"       // 이벤트 및 타이머
+#include "includes/player_data.inc"
+#include "includes/db_manager.inc"
+#include "includes/exp_level_system.inc"
+#include "includes/attribute_system.inc"
+#include "includes/weapon_system.inc"
+#include "includes/menu_system.inc"
+#include "includes/event_handler.inc"
 
 // =============================================================================
 // 플러그인 정보

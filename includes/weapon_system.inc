@@ -43,7 +43,7 @@ enum WeaponUpgradeResult
  * 무기 강화 성공 확률 테이블 (레벨별)
  * 인덱스 0~14: 0→1강 ~ 14→15강
  */
-const float WEAPON_SUCCESS_TABLE[15] = {
+static const float WEAPON_SUCCESS_TABLE[15] = {
     1.0, 0.85, 0.85, 0.70, 0.70, 0.70, 0.45, 0.45,
     0.30, 0.30, 0.30, 0.15, 0.15, 0.10, 0.05
 };
@@ -52,7 +52,7 @@ const float WEAPON_SUCCESS_TABLE[15] = {
  * 무기 강화 실패 확률 테이블 (레벨별)
  * 실패 시 강화 레벨 유지
  */
-const float WEAPON_MISS_TABLE[15] = {
+static const float WEAPON_MISS_TABLE[15] = {
     0.0, 0.15, 0.15, 0.30, 0.30, 0.30, 0.30, 0.30,
     0.40, 0.40, 0.40, 0.50, 0.50, 0.50, 0.50
 };
@@ -61,7 +61,7 @@ const float WEAPON_MISS_TABLE[15] = {
  * 무기 강화 초기화 확률 테이블 (레벨별)
  * 초기화 시 강화 레벨 0으로 리셋
  */
-const float WEAPON_RESET_TABLE[15] = {
+static const float WEAPON_RESET_TABLE[15] = {
     0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.25, 0.25,
     0.30, 0.30, 0.30, 0.35, 0.35, 0.40, 0.45
 };
@@ -70,7 +70,7 @@ const float WEAPON_RESET_TABLE[15] = {
  * 무기 강화 비용 테이블 (레벨별)
  * 포인트 단위
  */
-const int WEAPON_COST_TABLE[15] = {
+static const int WEAPON_COST_TABLE[15] = {
     200, 400, 600, 1200, 2000, 3500, 7000, 12000,
     20000, 35000, 50000, 100000, 150000, 250000, 400000
 };
